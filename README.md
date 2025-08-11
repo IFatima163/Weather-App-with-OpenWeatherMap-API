@@ -1,12 +1,28 @@
-# React + Vite
+# Weather App
+A responsive weather application built with Vite + React that fetches real-time weather data from an API. The app includes features like live alerts, error handling, and smooth UI styling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Real-time Weather Data - Powered by a weather API
+- Built with Vite - Lightning-fast development experience
+- Custom CSS Styling - Clean and responsive design
+- React Hooks - useState, useEffect, and useRef for state management & lifecycle control
+- Weather Alerts - Informative warnings for special conditions
+- Error Handling - Graceful fallbacks for API errors or network issues
+- Live Deployment - Accessible via GitHub Pages
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React, Vite
+- **Styling:** CSS
+- **API:** OpenWeatherMap API
+- **Deployment:** GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+[Click here to view the live app](https://ifatima163.github.io/Weather-App-with-OpenWeatherMap-API/)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development Notes
+- Initialized project with Vite
+- Configured Git repository & basic setup
+- Implemented core functionality using useEffect, useState, and useRef
+- Added API integration & weather alerts
+- Styled the application with custom CSS
+- Published via GitHub Pages
