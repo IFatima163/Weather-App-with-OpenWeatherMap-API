@@ -9,6 +9,7 @@ A responsive weather application built with Vite + React that fetches real-time 
 - Weather Alerts - Informative warnings for special conditions
 - Error Handling - Graceful fallbacks for API errors or network issues
 - Live Deployment - Accessible via GitHub Pages
+- [OpenWeatherMap API integration](https://openweathermap.org/)
 
 ## Tech Stack
 - **Frontend:** React, Vite
